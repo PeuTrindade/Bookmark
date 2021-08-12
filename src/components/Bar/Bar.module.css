@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-weight: normal;
+    font-family: arial;
+}
+
+.items {
+    display: flex;
+}
+
+.item1 {
+    font-weight: normal;
+    margin-right: 2rem;
+    color: hsl(229, 8%, 60%);
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.item2 {
+    font-weight: normal;
+    margin-right: 2rem;
+    color: hsl(229, 8%, 60%);
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.item3 {
+    font-weight: normal;
+    color: hsl(229, 8%, 60%);
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover {
+    color: hsl(231, 69%, 60%);
+}
+
+.bar {
+    width: 100%;
+    background-color: hsl(225, 8%, 91%);
+    height: .2rem;
+    margin-top: 1.5rem;
+}
+
+.item1Bar {
+    background-color: hsl(0, 94%, 66%);
+    width: 33.33%;
+    height: 100%;
+}
+
+.item2Bar {
+    background-color: hsl(0, 94%, 66%);
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-30%);
+}
+
+.item3Bar {
+    background-color: hsl(0, 94%, 66%);
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}

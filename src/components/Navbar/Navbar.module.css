@@ -1,0 +1,128 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 4rem;
+    font-family: Arial;
+}
+
+.navbarLogo {
+    margin-left: 5%;
+}
+
+.itemsListDesktop {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    list-style: none;
+    color: hsl(229, 31%, 21%);
+}
+
+.itemDesktop {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.itemsListDesktop a {
+    text-decoration: none;
+    color: hsl(229, 31%, 21%);
+    transition: all ease 0.3s;
+}
+
+.itemsListDesktop a:hover {
+   color: hsl(0, 94%, 66%);
+}
+
+.ButtonDesktop {
+    background-color: hsl(0, 94%, 66%);
+    padding: .5rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: .3rem;
+    border: 2px solid hsl(0, 94%, 66%);
+    color: white;
+    box-shadow: 0 1px 5px hsl(231, 69%, 60%);
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.ButtonDesktop:hover {
+    background-color: white;
+    border: 2px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+}
+
+.menuMobileContainer {
+    margin-right: 5%;
+}
+
+.menuHamburguer {
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.closeMenu {
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.displayMobileContainer {
+    background-color: hsl(229, 31%, 21%);
+    height: 91vh;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+}
+
+.itemsListMobile a{
+    text-decoration: none;
+    color: white;
+}
+
+.itemsListMobile {
+    list-style: none;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.itemMobile {
+    text-align: center;
+    width: 80vw;
+    margin-bottom: 1rem;
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.buttonMobile {
+    text-align: center;
+    height: 3rem;
+    padding-top: .6rem;
+    border: 3px solid white;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.buttonMobile:hover {
+    background-color: white;
+    color: hsl(229, 31%, 21%);
+}
+
+.socialMedia {
+    margin-top: 10rem;
+    display: flex;
+}
+
+.socialMedia img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}

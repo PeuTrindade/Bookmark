@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    margin-top: 3.5rem;
+}
+
+.textContainer h2 {
+    text-align: center;
+    font-size: 2rem;
+    color:  hsl(229, 31%, 21%);
+}
+
+.textContainer h4 {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: hsl(229, 8%, 60%);
+    font-weight: normal;
+}
+
+.contentContainer {
+    margin-top: 2rem;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.content1 img {
+    width: 300px;
+    margin-left: 3rem;
+    box-shadow: 2px 2px 15px hsl(231, 69%, 60%);
+}
+
+.text {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.text h3 {
+    font-size: 1.5rem;
+    color:  hsl(229, 31%, 21%);
+    margin-bottom: 1rem;
+}
+
+.text p {
+    color:  hsl(229, 8%, 60%);
+}
+
+.text button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 2.5rem;
+    width: 8rem;
+    border: 2px solid hsl(231, 69%, 60%);
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    font-weight: bold;
+    border-radius: .3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    box-shadow: 0 1px 5px hsl(231, 69%, 60%);
+    transition: all ease 0.3s;
+}
+
+.text button:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+@media screen and (max-width:675px){
+    .content1 {
+        flex-wrap: wrap-reverse;
+    }
+    .content1 img {
+        margin-top: 2rem;
+        width: 200px;
+    }
+}
